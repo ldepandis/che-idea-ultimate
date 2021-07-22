@@ -23,7 +23,7 @@ spec:
         path: /?backgroundColor=434343&wss
   containers:
     - name: che-idea
-      image: "quay.io/ldepandis/che-idea-ultimate:2020.3.3"
+      image: "quay.io/ldepandis_kiratech/che-idea-ultimate:2020.3.3"
       mountSources: true
       volumes:
         - mountPath: "/home/projector-user"
