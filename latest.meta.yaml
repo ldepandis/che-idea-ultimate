@@ -14,7 +14,7 @@ spec:
   endpoints:
     - name: "intellij"
       public: true
-      targetPort: 8887
+      targetPort: 8080
       attributes:
         protocol: http
         type: ide
@@ -29,7 +29,7 @@ spec:
         - mountPath: "/home/projector-user"
           name: projector-user
       ports:
-        - exposedPort: 8887
+        - exposedPort: 8080
       memoryLimit: 4096M	
       cpuLimit: 1500m	
       cpuRequest: 600m
